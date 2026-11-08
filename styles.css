@@ -193,7 +193,7 @@ address { font-style: normal; display: flex; flex-direction: column; align-items
   .hero-details { font-size: 10px; }
   .profile-panel { padding-inline: 16px; gap: 8px 10px; }
 }
-@media (prefers-reduced-motion: reduce) { html { color-scheme: dark; scroll-behavior: auto; } .button { transition: none; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button, .employer-logos a { transition: none; } }
 @media print {
   :root { --paper: white; --ink: black; --muted: #444; --purple: #512577; --line: #bbb; --soft: white; }
   html { color-scheme: light; }
@@ -214,6 +214,8 @@ address { font-style: normal; display: flex; flex-direction: column; align-items
   .projects-section, .contact-section { background: white; color: black; padding-block: 20px; border-block: 1px solid #bbb; }
   .project-list { display: block; }
   .project { margin-bottom: 20px; }
+  .project p { color: #444; }
+  .project-index { color: #512577; }
   .experience-item, .education-list article, .project { break-inside: avoid; }
   .contact-layout { display: block; }
   .contact-section p, .contact-section .section-number { color: #444; }
