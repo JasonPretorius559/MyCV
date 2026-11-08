@@ -66,6 +66,7 @@ h2 { font: normal 36px/1.17 var(--serif); letter-spacing: -.8px; margin-bottom: 
 .current-label { color: var(--green); font-weight: 650; }
 h3 { font-size: 20px; font-weight: 550; letter-spacing: -.2px; margin-bottom: 5px; line-height: 1.4; }
 .organisation { color: var(--green); font-size: 13px; margin-bottom: 18px; }
+.role-summary { font-size: 14px; color: var(--muted); margin-bottom: 0; }
 .promotion { font-size: 16px; color: var(--muted); font-weight: 400; }
 .experience-item ul { padding-left: 18px; margin: 0; font-size: 14px; color: var(--muted); }
 .experience-item li { padding-left: 6px; margin-bottom: 8px; }
